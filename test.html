@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week33 Solution</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    .navbar{
+      background-color: #abc798;
+    }
+    .navbar-brand{
+      color: black;
+      margin-left: 20px;
+      font-size: 35px;
+      font-weight: 400;
+    }
+    .navbar-nav a{
+      text-align: center;
+      font-size: 23px;
+      color: black;
+      margin: 0 4px 0 4px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      color: black;
+    }
+    a.nav-link:hover{
+      background-color: #84a171;
+      border-radius: 0.1cm;
+    }
+    .name{
+      font-size: 35px;
+      margin-top: 20px;
+    }
+    .summ{
+      font-size: 18px;
+    }
+    #edu,#skill,#work,#pro,#ach{
+      border: 2px solid black;
+      padding: 20px 30px 15px 30px;
+      margin-top: 30px;
+      background-color: #d1ebc2;
+      position: relative;
+    }
+    #ach{
+      margin-bottom: 60px;
+    }
+    .edutext,.skilltext,.worktext,.protext,.achtext{
+      margin-bottom: 0;
+      font-size: 17px;
+      tab-size: 8;
+    }
+    h2{
+      font-size: 25px;
+    }
+    #edu a, #skill a, #work a,#pro a,#ach a{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      color: black;
+      font-size: 14px;
+      text-align: center;
+      background-color: #abc798;
+      padding: 4px 5px 4px 4px;
+    }
+    #edu a:hover, #skill a:hover, #work a:hover,#pro a:hover,#ach a:hover{
+      text-decoration: none;
+      border: 2px solid black;
+    }
+    footer{
+      background-color: #abc798;
+    }
+    .fa {
+      padding: 20px 25px 20px 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link btn" href="#edu">Education <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn" href="#skill">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn" href="#work">WorkExperience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn" href="#pro">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn" href="#ach">Acheivements</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="name">Gorugantala Keerthana</div>
+    <div class="summ">
+      <p>I'm a Self-Driven person who'd strive to full-fill my responsibilities with good communication and negotiation skills. Aiming to be associated with a progressive organization that gives me scope to enhance and explore my skills.
+      A diploma pass out at GIOE currently graduating in Information Technology at KMIT.Worked at Glow Power Tech as an Intern for 6Months as part of the diploma course. Worked in various Responsive WebDev projects, actively participated in multiple Hackathons and Coursera GTC.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="edu">
+      <h2>Education</h2>
+      <p class="edutext">
+        Diploma(EVE)  2018<br>
+        Government Institute of Technology  Marredpally,Hyderabad<br>
+        <br>
+        B.Tech(IT)  Present<br>
+        Keshav memorial institute of technology				Narayanguda,Hyderabad
+      </p>
+      <a href="#top" class="btn">Back to top</a>
+    </div>
+
+    <div id="skill">
+      <h2>Skills</h2>
+      <p class="skilltext">
+        Coding | C,C++,JAVA,Python<br>
+        <br>
+        Web Development | HTML,CSS,Bootstrap,JavaScript,NodeJS,JSON,DBMS,Servlets<br>
+        <br>
+        Sketching/Painting/Crafts<br>
+        <br>
+        Written and verbal communication skills<br>
+        <br>
+        Well-honed public speaking<br>
+        <br>
+        Art of Googling
+      </p>
+      <a href="#top" class="btn">Back to top</a>
+    </div>
+
+    <div id="work">
+      <h2>WorkExperience</h2>
+      <p class="worktext">
+        Worked as an Intern at Glow Power Technologies  2018<br>
+        Period:6 Months<br>
+        AS.Rao Nagar,Hyderabad
+      </p>
+      <a href="#top" class="btn">Back to top</a>
+    </div>
+
+    <div id="pro">
+      <h2>Projects</h2>
+      <p class="protext">
+        Ristorante Con Fusion<br>
+        Responsive Static Restaurant Website developed using HTML, CSS, SCSS, Bootstrap4
+        <p class="d-none d-sm-block">Project Assignment of the course offered by Hongkong University in Coursera</p>
+        <p class="d-block d-md-block"></p>
+        David Chu’s China Bistro<br>
+        Responsive Static Restaurant Website developed using HTML, CSS, Bootstrap4, JavaScript, JSON
+        <p class="d-none d-sm-block">Project Assignment of the course offered by John Hopkins University in Coursera</p>
+        <p class="d-block d-md-block"></p>
+        Online PortFolio<br>
+        Personal Project
+      </p>
+      <a href="#top" class="btn">Back to top</a>
+    </div>
+
+    <div id="ach">
+      <h2>Acheivements / Participations</h2>
+      <p class="achtext">
+        <ul>
+          <li>Been a Part of Painting and Sketching competitions at School level.</li>
+          <li>Promoted to District Level in SRUJANA TECH FEST(2017-18) held at Jntu FineArts and Conducted by Dept of Technical Education(Govt. Of Telangana)</li>
+          <li>Volunteered at Diploma level Events.</li>
+          <li>Took part in CSI BUG BUSTER, SOPHOS HACKATHON, MSP PROGRAM, CYBER POLICING SEMINARS and other Coding Contests Powered by HackerRank</li>
+          <li>Beginner level Speaker in SPANISH</li>
+        </ul>
+      </p>
+      <a href="#top" class="btn">Back to top</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <a href="#" class="fa fa-linkedin"></a>
+    </div>
+  </footer>
+
+</body>
+</html>
